@@ -1,13 +1,8 @@
-// Add imports above this line
 import { galleryItems } from './gallery-items';
 
-// Описаний в документації
 import SimpleLightbox from 'simplelightbox';
 
-// Додатковий імпорт стилів
 import 'simplelightbox/dist/simple-lightbox.min.css';
-
-// Change code below this line
 
 const galleryContainer = document.querySelector('.gallery');
 const galleryCardsSet = createGallery(galleryItems);
@@ -28,10 +23,8 @@ function createGallery(galleryItems) {
 
 galleryContainer.insertAdjacentHTML('beforeend', galleryCardsSet);
 
-const lightbox = new SimpleLightbox('.gallery a', {
+new SimpleLightbox('.gallery a', {
   caption: true,
   captionsData: 'alt',
   captionDelay: 250,
 });
-
-console.log(galleryItems);
