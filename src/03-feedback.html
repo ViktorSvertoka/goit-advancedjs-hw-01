@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/03-feedback.css" />
+  </head>
+  <body>
+    <p>
+      <a href="index.html"
+        ><button class="go-back-btn custom-btn btn-4" type="button">
+          <span>Go back</span>
+        </button></a
+      >
+    </p>
+    <div class="container">
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button class="submit-btn custom-btn btn-5" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+    <script src="js/03-feedback.js" type="module"></script>
+  </body>
+</html>
