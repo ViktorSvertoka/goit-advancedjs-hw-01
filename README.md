@@ -122,3 +122,6 @@ HTML містить розмітку форми. Напиши скрипт, як
 4. Зроби так, щоб сховище оновлювалось не частіше, ніж раз на 500 мілісекунд.
    Для цього додай до проекту і використовуй бібліотеку
    [lodash.throttle](https://www.npmjs.com/package/lodash.throttle).
+
+![Screencapture](./assets/1.png) ![Screencapture](./assets/2.png)
+![Screencapture](./assets/3.png) ![Screencapture](./assets/4.png)
