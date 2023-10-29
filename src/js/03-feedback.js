@@ -22,6 +22,7 @@ function reloadPage() {
 
 function onFormSubmit(event) {
   event.preventDefault();
+  console.log({ email: email.value, message: message.value });
 
   if (email.value === '' || message.value === '') {
     return alert('Please fill in all required fields.');
